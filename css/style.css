@@ -26,44 +26,25 @@ audio:not([controls]),
 	box-sizing: border-box;
 	}
 html {
-	background: #fff;
 	font-size: 100%;
-	overflow-y: scroll;
-	-webkit-overflow-scrolling: touch;
-	-webkit-tap-highlight-color: rgba(255,0,0,0.5);
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	}
-html, button, input, select, textarea {
-	font-family: sans-serif;
-	color: #222;
-	}
 body {
-	cursor: default;
-	font-size: 1em;
-	line-height: 1.4;
+	font-size: 13px;
+	line-height: 1.231;
 	margin: 0;
 	text-rendering: optimizeLegibility;
-	-moz-font-feature-settings: "liga=1";
-	-ms-font-feature-settings: "liga" 1;
-	-moz-font-feature-settings: "kern=1";
-	-ms-font-feature-settings: "kern" 1;
+	}
+body, button, input, select, textarea {
+	font-family: sans-serif;
+	color: #222;
 	}
 /* @end */
 
 
 
 /* @group Design */
-/* @group Font-face */
-@font-face {
-	font-family: 'custom';
-	src: url('fonts/webfont.eot');
-	src: url('fonts/webfont.eot?iefix') format('eot'),
-	url('fonts/webfont.woff') format('woff'),
-	url('fonts/webfont.ttf') format('truetype'),
-	url('fonts/webfont.svg#svgFontName') format('svg');
-	}
-/* @end */
 
 /* @group Typography */
 abbr[title] {border-bottom: 1px dotted;}
