@@ -16,7 +16,9 @@ audio, canvas, video {
 	*display: inline;
 	*zoom: 1;
 	}
-audio:not([controls]),
+audio:not([controls]) {
+	display: none;
+	}
 [hidden] {
 	display: none;
 	}
@@ -66,7 +68,6 @@ figure {margin: 0;}
 	
 h1,h2,h3,h4,h5,h6 {
 	font: 32px/1.4 custom, sans-serif;
-	color: #222;
 	}
 h1 {font-size: 24px;}
 h2 {font-size: 18px;}
@@ -74,7 +75,13 @@ h3 {font-size: 16px;}
 h4 {font-size: 16px;}
 h5 {font-size: 16px;}
 h6 {font-size: 16px;}
-h1,h2,h3,h4,h5,h6,p {margin: 0 0 15px;}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 15px 0 10px;
+	}
+p {
+	margin: 0 0 15px;
+	}
 /* @end */
 
 /* @group Links */
